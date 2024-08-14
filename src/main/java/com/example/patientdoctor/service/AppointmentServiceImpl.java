@@ -1,5 +1,7 @@
 package com.example.patientdoctor.service;
 
+
+
 import com.example.patientdoctor.dto.AppointmentDto;
 import com.example.patientdoctor.entity.Appointment;
 import com.example.patientdoctor.entity.Doctor;
@@ -42,6 +44,8 @@ public class AppointmentServiceImpl implements AppointmentService {
         appointmentDto.setId(appointment.getId());
         return appointmentDto;
     }
+
+
 
     @Override
     public List<AppointmentDto> getAllAppointments() {
